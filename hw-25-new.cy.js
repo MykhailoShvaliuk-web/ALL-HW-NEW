@@ -1,5 +1,3 @@
-// beforeEach
-
 describe('Test Toastr', () => {
     beforeEach(() => { 
         cy.visit('https://sanitarskyi-ngx-admin.herokuapp.com');
@@ -122,8 +120,6 @@ describe('Test Toastr', () => {
         });
 })
 
-
-// before
 
 describe.skip('Test Toastr', () => {
     before(() => { 
